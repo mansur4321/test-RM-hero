@@ -36,7 +36,7 @@ import { RouterLink, RouterView } from "vue-router";
 export default {
 	name: 'app',
 
-	computed: {
+	computed: {//Страницы всего две, поэтому таким способом думаю одну из кнопок активной
 		activePage() {
 			return this.$route.path === '/';
 		}
